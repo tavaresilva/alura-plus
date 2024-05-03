@@ -1,18 +1,29 @@
 :root {
-    --branco : #ffffff;
-    --cinca : #c2c2c2;
-    --botão-azul : #5560ca;
-    --cor-de-fundo : #353535;
-}
-body{
+    --branco: #FFFFFF;
+    --cinza: #c0c0c0;
+    --batao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    }
+    
+    body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-}
-.principal{
+    }
+    
+    .principal {
     background-image: url(img/Background.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-}
-.container{
-    height:100vh;
-}
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    
+    .container{
+    height: 100vh;
+    }
+    .container-botao{
+        background-color; var(--botao-azul);
+        border-radius: 5px;
+        padding: 1em;
+        color:var(--branco)
+        display: block;
+
+    }
