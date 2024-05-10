@@ -28,5 +28,16 @@
     display: block;
     }
     .botao-secundario{
-        
+        background-color:  transparent;
+        color:var(--branco);
+        border: 2px solid  var(--branco);
+;        
     }
+    .container.avio{
+        font-size: 28px;
+        color:var(--cinza);
+    }
+        .container-titulo{
+            font-size:28px;
+            font-weight: 700;
+        }
